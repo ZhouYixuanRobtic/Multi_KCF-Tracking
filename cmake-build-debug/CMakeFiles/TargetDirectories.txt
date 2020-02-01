@@ -1,0 +1,5 @@
+G:/ClionProjects/KCFcpp/cmake-build-debug/CMakeFiles/testgnu.dir
+G:/ClionProjects/KCFcpp/cmake-build-debug/CMakeFiles/testKCF.dir
+G:/ClionProjects/KCFcpp/cmake-build-debug/CMakeFiles/KCF.dir
+G:/ClionProjects/KCFcpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/ClionProjects/KCFcpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+"F:\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=F:/MinGW/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=F:/MinGW/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=F:/MinGW/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" G:\ClionProjects\KCFcpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/ClionProjects/KCFcpp/cmake-build-debug

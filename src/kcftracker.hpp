@@ -82,8 +82,11 @@ the use of this software, even if advised of the possibility of such damage.
 
 #pragma once
 
+#include "../include/medflt.h"
 #include "tracker.h"
-
+#include <boost/tuple/tuple.hpp>
+#include "gnuplot-iostream.h"
+#include "boost/array.hpp"
 #ifndef _OPENCV_KCFTRACKER_HPP_
 #define _OPENCV_KCFTRACKER_HPP_
 #endif
@@ -111,6 +114,11 @@ public:
     float scale_step; // scale step for multi-scale estimation
     float scale_weight;  // to downweight detection scores of other scales for added stability
 
+    std::vector<float> peak_values;
+    std::vector<float> energy;
+    std::vector<float> mid;
+    float temp_value,mid_value;
+    bool failure_detected{};
 protected:
     // Detect object in the current frame.
     cv::Point2f detect(cv::Mat z, cv::Mat x, float &peak_value);

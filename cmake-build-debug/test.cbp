@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv-3.4.5\;CMake Files\opencv-3.4.5\mingw-build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testgnu">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/testgnu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testgnu"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testgnu/fast">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/testgnu.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testgnu/fast"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testKCF">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/testKCF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/opencv-3.4.5/mingw-build"/>
+					<Add directory="F:/opencv-3.4.5/include"/>
+					<Add directory="F:/opencv-3.4.5/include/opencv"/>
+					<Add directory="F:/opencv-3.4.5/modules/core/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/flann/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgproc/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ml/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/phase_unwrapping/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/photo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/plot/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/reg/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/surface_matching/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/video/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xphoto/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/dnn/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/fuzzy/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/hfs/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/img_hash/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/shape/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videoio/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/highgui/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/superres/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ts/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bioinspired/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dnn_objdetect/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/features2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/line_descriptor/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/saliency/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/text/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/calib3d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ccalib/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/datasets/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/objdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/rgbd/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/stereo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/structured_light/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/tracking/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videostab/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xfeatures2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ximgproc/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xobjdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/aruco/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bgsegm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dpm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/face/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/optflow/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/stitching/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testKCF"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testKCF/fast">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/testKCF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/opencv-3.4.5/mingw-build"/>
+					<Add directory="F:/opencv-3.4.5/include"/>
+					<Add directory="F:/opencv-3.4.5/include/opencv"/>
+					<Add directory="F:/opencv-3.4.5/modules/core/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/flann/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgproc/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ml/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/phase_unwrapping/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/photo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/plot/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/reg/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/surface_matching/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/video/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xphoto/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/dnn/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/fuzzy/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/hfs/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/img_hash/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/shape/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videoio/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/highgui/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/superres/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ts/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bioinspired/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dnn_objdetect/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/features2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/line_descriptor/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/saliency/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/text/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/calib3d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ccalib/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/datasets/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/objdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/rgbd/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/stereo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/structured_light/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/tracking/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videostab/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xfeatures2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ximgproc/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xobjdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/aruco/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bgsegm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dpm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/face/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/optflow/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/stitching/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 testKCF/fast"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KCF">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/KCF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/opencv-3.4.5/mingw-build"/>
+					<Add directory="F:/opencv-3.4.5/include"/>
+					<Add directory="F:/opencv-3.4.5/include/opencv"/>
+					<Add directory="F:/opencv-3.4.5/modules/core/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/flann/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgproc/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ml/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/phase_unwrapping/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/photo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/plot/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/reg/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/surface_matching/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/video/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xphoto/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/dnn/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/fuzzy/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/hfs/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/img_hash/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/shape/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videoio/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/highgui/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/superres/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ts/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bioinspired/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dnn_objdetect/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/features2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/line_descriptor/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/saliency/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/text/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/calib3d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ccalib/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/datasets/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/objdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/rgbd/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/stereo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/structured_light/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/tracking/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videostab/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xfeatures2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ximgproc/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xobjdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/aruco/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bgsegm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dpm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/face/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/optflow/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/stitching/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 KCF"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KCF/fast">
+				<Option output="G:/ClionProjects/KCFcpp/cmake-build-debug/KCF.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/ClionProjects/KCFcpp/src"/>
+					<Add directory="G:/ClionProjects/KCFcpp/../dirent/include"/>
+					<Add directory="F:/boost_1_71_0"/>
+					<Add directory="G:/ClionProjects/gnuplot-iostream"/>
+					<Add directory="F:/opencv-3.4.5/mingw-build"/>
+					<Add directory="F:/opencv-3.4.5/include"/>
+					<Add directory="F:/opencv-3.4.5/include/opencv"/>
+					<Add directory="F:/opencv-3.4.5/modules/core/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/flann/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgproc/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ml/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/phase_unwrapping/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/photo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/plot/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/reg/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/surface_matching/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/video/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xphoto/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/dnn/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/fuzzy/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/hfs/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/img_hash/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/shape/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videoio/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/highgui/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/superres/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/ts/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bioinspired/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dnn_objdetect/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/features2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/line_descriptor/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/saliency/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/text/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/calib3d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ccalib/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/datasets/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/objdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/rgbd/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/stereo/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/structured_light/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/tracking/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/videostab/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xfeatures2d/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/ximgproc/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/xobjdetect/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/aruco/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/bgsegm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/dpm/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/face/include"/>
+					<Add directory="F:/opencv_contrib-3.4.5/modules/optflow/include"/>
+					<Add directory="F:/opencv-3.4.5/modules/stitching/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 KCF/fast"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/ClionProjects/KCFcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;G:/ClionProjects/KCFcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/example.cpp">
+			<Option target="testgnu"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/fhog.cpp">
+			<Option target="testKCF"/>
+			<Option target="KCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/fhog.hpp">
+			<Option target="testKCF"/>
+			<Option target="KCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/kcftracker.cpp">
+			<Option target="testKCF"/>
+			<Option target="KCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/kcftracker.hpp">
+			<Option target="testKCF"/>
+			<Option target="KCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/runtracker.cpp">
+			<Option target="KCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/src/testRunTracker.cpp">
+			<Option target="testKCF"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/opencv-3.4.5/mingw-build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv-3.4.5\mingw-build\"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/opencv-3.4.5/mingw-build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv-3.4.5\mingw-build\"/>
+		</Unit>
+		<Unit filename="G:/ClionProjects/KCFcpp/opencv-3.4.5/mingw-build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv-3.4.5\mingw-build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

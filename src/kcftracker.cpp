@@ -208,7 +208,13 @@ cv::Rect KCFTracker::update(cv::Mat image)
             _roi.height *= scale_step;
         }
     }
-
+    peak_values.emplace_back(peak_value);
+    TMedianFilter1D<float> medianFilter1D(5);
+    medianFilter1D.Execute(peak_values);
+    temp_value=peak_value - medianFilter1D.getFilteredMean();
+    energy.emplace_back(temp_value);
+    mid_value =medianFilter1D.getFilteredMean();
+    mid.emplace_back(mid_value);
     // Adjust by cell size and _scale
     _roi.x = cx - _roi.width / 2.0f + ((float) res.x * cell_size * _scale);
     _roi.y = cy - _roi.height / 2.0f + ((float) res.y * cell_size * _scale);
@@ -220,8 +226,19 @@ cv::Rect KCFTracker::update(cv::Mat image)
 
     assert(_roi.width >= 0 && _roi.height >= 0);
     cv::Mat x = getFeatures(image, 0);
-    train(x, interp_factor);
-
+    failure_detected = temp_value<0&&(std::abs(temp_value)/mid_value)>0.5&&peak_value<0.2;
+    train(x, interp_factor);/*
+    static int counter=1;
+    if(temp_value<0&&(std::abs(temp_value)/mid_value)>0.5&&peak_value<0.2)
+    {
+        cv::Mat temp_image;
+        image.copyTo(temp_image);
+        cv::rectangle(temp_image,_roi,cv::Scalar(0,255,0));
+        cv::imshow(std::to_string(counter),temp_image);
+        cv::waitKey(0);
+        cv::destroyWindow(std::to_string(counter));
+    }
+    counter++;*/
     return _roi;
 }
 
@@ -264,9 +281,20 @@ void KCFTracker::train(cv::Mat x, float train_interp_factor)
 
     cv::Mat k = gaussianCorrelation(x, x);
     cv::Mat alphaf = complexDivision(_prob, (fftd(k) + lambda));
-    
-    _tmpl = (1 - train_interp_factor) * _tmpl + (train_interp_factor) * x;
-    _alphaf = (1 - train_interp_factor) * _alphaf + (train_interp_factor) * alphaf;
+
+    static bool first_time{true};
+    if(first_time)
+    {
+        _tmpl = (1 - train_interp_factor) * _tmpl + (train_interp_factor) * x;
+        _alphaf = (1 - train_interp_factor) * _alphaf + (train_interp_factor) * alphaf;
+        first_time=false;
+    } else
+    {
+        if(!failure_detected) {
+            _tmpl = (1 - train_interp_factor) * _tmpl + (train_interp_factor) * x;
+            _alphaf = (1 - train_interp_factor) * _alphaf + (train_interp_factor) * alphaf;
+        }
+    }
 
 
     /*cv::Mat kf = fftd(gaussianCorrelation(x, x));
@@ -345,7 +373,6 @@ cv::Mat KCFTracker::getFeatures(const cv::Mat & image, bool inithann, float scal
 
     float cx = _roi.x + _roi.width / 2;
     float cy = _roi.y + _roi.height / 2;
-
     if (inithann) {
         int padded_w = _roi.width * padding;
         int padded_h = _roi.height * padding;
@@ -396,10 +423,10 @@ cv::Mat KCFTracker::getFeatures(const cv::Mat & image, bool inithann, float scal
 
     cv::Mat FeaturesMap;  
     cv::Mat z = RectTools::subwindow(image, extracted_roi, cv::BORDER_REPLICATE);
-    
+
     if (z.cols != _tmpl_sz.width || z.rows != _tmpl_sz.height) {
         cv::resize(z, z, _tmpl_sz);
-    }   
+    }
 
     // HOG features
     if (_hogfeatures) {

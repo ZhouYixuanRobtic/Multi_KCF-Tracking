@@ -1,0 +1,3 @@
+"F:\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\testKCF.dir/objects.a
+F:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\testKCF.dir/objects.a @CMakeFiles\testKCF.dir\objects1.rsp
+F:\MinGW\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\testKCF.dir/objects.a -Wl,--no-whole-archive  -o testKCF.exe -Wl,--out-implib,libtestKCF.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testKCF.dir\linklibs.rsp
